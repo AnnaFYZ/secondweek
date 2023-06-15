@@ -1,0 +1,83 @@
+.App {
+  margin: 100px auto;
+  border: 5px solid blue;
+  padding: 10px;
+  width: 600px;
+  color: #61dafb;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.CountryCard {
+  border: 15px solid greenyellow;
+  padding: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+  color: #61dafb;
+  box-sizing: border-box;
+}
+
+.CardBorder {
+  border: 3px solid black;
+  width: 100%;
+  padding: 0 3px 10px 3px;
+  box-sizing: border-box;
+}
+
+.ScoreLine {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: right;
+  border-bottom: 2px solid black;
+  width: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.Name {
+  color: black;
+  font-size: 24px;
+  margin: 0;
+  align-self: center;
+  font-weight: 800;
+}
+
+.Score {
+   color: rgb(192, 14, 14);
+  font-size: 24px;
+  margin: 0;
+  align-self: center;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 15px;
+}
+
+h1 {
+  font-size: 36px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
